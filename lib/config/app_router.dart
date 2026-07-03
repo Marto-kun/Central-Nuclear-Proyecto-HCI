@@ -11,5 +11,10 @@ final appRouter = GoRouter(
       builder: (context, state) => StartInstructionsScreen(),
     ),
 
+    GoRoute(
+      path: '/simulation',
+      builder: (context, state) => SimulationScreen(),
+    ),
+
   ],
 );

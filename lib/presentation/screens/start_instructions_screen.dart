@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class StartInstructionsScreen extends StatelessWidget {
   const StartInstructionsScreen({super.key});
@@ -64,10 +65,16 @@ class _BodyView extends StatelessWidget {
               ],
             ),
           ),
+          
+          SizedBox( height: size.height * 0.05, ),
 
           // 
           
-          
+          FilledButton.icon(
+            onPressed: () => context.push('simulation'), 
+            label: Text('Iniciar'),
+            icon: Icon(Icons.play_arrow_rounded),
+          ),
 
         ],
       ),
