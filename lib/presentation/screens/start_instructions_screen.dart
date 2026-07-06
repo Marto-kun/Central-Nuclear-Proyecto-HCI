@@ -53,17 +53,15 @@ class _BodyView extends StatelessWidget {
 
           // 
 
-          Container(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text('1. Detener las turbinas de generacion electrica.'),
-                Text('2. Ventilar el contenido radioactivo.'),
-                Text('3. Evacuar el agua caliente e ingresar nueva.'),
-                Text('4. Apagar el reactor.'),
-                Text('5. Presionar el boton de detenido de emergencia.'),
-              ],
-            ),
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text('1. Detener las turbinas de generacion electrica.'),
+              Text('2. Ventilar el contenido radioactivo.'),
+              Text('3. Evacuar el agua caliente e ingresar nueva.'),
+              Text('4. Apagar el reactor.'),
+              Text('5. Presionar el boton de detenido de emergencia.'),
+            ],
           ),
           
           SizedBox( height: size.height * 0.05, ),
