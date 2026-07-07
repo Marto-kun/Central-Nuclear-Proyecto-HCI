@@ -1,2 +1,4 @@
-export 'start_instructions_screen.dart';
-export 'simulation_screen.dart';
+export 'home_screen.dart';
+export 'start_simulation_screen.dart';
+export 'win_screen.dart';
+export 'lose_screen.dart';
