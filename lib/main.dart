@@ -1,9 +1,13 @@
 import 'package:central_nuclear/config/app_router.dart';
 import 'package:central_nuclear/config/config.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    const ProviderScope(
+      child: MyApp()
+    ));
 }
 
 class MyApp extends StatelessWidget {
@@ -14,8 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp.router(
       routerConfig: appRouter,
       theme: AppTheme().getTheme(),
-      debugShowCheckedModeBanner: false
+      debugShowCheckedModeBanner: false,
     );
   }
 }
-

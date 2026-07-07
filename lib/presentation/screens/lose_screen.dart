@@ -1,17 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-//import '/../providers/providers.dart';
-/* import 'package:central_nuclear/presentation/providers/coolant_temperature_provider.dart';
+import 'package:central_nuclear/presentation/providers/coolant_temperature_provider.dart';
 import 'package:central_nuclear/presentation/providers/count_seconds_provider.dart';
 import 'package:central_nuclear/presentation/providers/emergency_button_provider.dart';
-import 'package:project_nuclear/presentation/providers/energy_output_provider.dart';
-import 'package:project_nuclear/presentation/providers/reactor_state_provider.dart';
-import 'package:project_nuclear/presentation/providers/shutdown_sequence_provider.dart';
-import 'package:project_nuclear/presentation/providers/simulation_result_provider.dart';
-import 'package:project_nuclear/presentation/providers/turbine_provider.dart';
-import 'package:project_nuclear/presentation/providers/ventilation_provider.dart';
-import 'package:project_nuclear/presentation/providers/water_level_provider.dart'; */
+import 'package:central_nuclear/presentation/providers/energy_output_provider.dart';
+import 'package:central_nuclear/presentation/providers/reactor_state_provider.dart';
+import 'package:central_nuclear/presentation/providers/shutdown_sequence_provider.dart';
+import 'package:central_nuclear/presentation/providers/simulation_result_provider.dart';
+import 'package:central_nuclear/presentation/providers/turbine_provider.dart';
+import 'package:central_nuclear/presentation/providers/ventilation_provider.dart';
+import 'package:central_nuclear/presentation/providers/water_level_provider.dart';
 import 'package:central_nuclear/presentation/widgets/widgets.dart';
 
 class LoseScreen extends ConsumerWidget {
